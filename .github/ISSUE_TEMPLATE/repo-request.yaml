@@ -1,12 +1,4 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: "Repository Creation Request"
 description: "Fill out this form to request the creation of a new repository."
 title: "Repository Creation 

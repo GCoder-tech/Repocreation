@@ -6,7 +6,7 @@ Request: [Repository Name]"
 labels: ["repo-request"]
 body:
 - type: input
-    id: repo_name
+   id: repo_name
     attributes:
       label: "Repository Name"
       description: "Provide the name for the repository."
@@ -14,7 +14,7 @@ body:
       required: true
 
 - type: textarea
-    id: description
+   id: description
     attributes:
       label: "Repository Description"
       description: "Provide a short description for the repository."
@@ -22,7 +22,7 @@ body:
       required: true
 
 - type: dropdown
-    id: visibility
+   id: visibility
     attributes:
       label: "Repository Visibility"
       description: "Should the repository be public or private?"

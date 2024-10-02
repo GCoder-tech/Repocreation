@@ -1,0 +1,40 @@
+---
+name: Custom issue template
+about: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: "Repository Creation Request"
+description: "Fill out this form to request the creation of a new repository."
+title: "Repository Creation 
+Request: [Repository Name]"
+labels: ["repo-request"]
+body:
+  - type: input
+    id: repo_name
+    attributes:
+      label: "Repository Name"
+      description: "Provide the name for the repository."
+      placeholder: "e.g., new-repo"
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Repository Description"
+      description: "Provide a short description for the repository."
+      placeholder: "A brief description of the repository."
+      required: true
+
+  - type: dropdown
+    id: visibility
+    attributes:
+      label: "Repository Visibility"
+      description: "Should the repository be public or private?"
+      options:
+        - Public
+        - Private
+      required: true

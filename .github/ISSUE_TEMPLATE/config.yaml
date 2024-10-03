@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Capital Markets Community wiki
+    url: https://wiki.fnis.com/display/cmtech/Guidance
+    about: Wiki pages for Architecture guidance

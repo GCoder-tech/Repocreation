@@ -2,6 +2,22 @@ name: "Create Repository"
 description: "Use this issue to request a new GitHub Product repository"
 title: "Repository creation request"
 labels: ["repo-creation"]
+- type: dropdown
+  id: value stream key
+  attributes:
+    label: value stream key
+    multiple: false
+    description: Please select the value stream key
+    default: 0
+    options:
+      - DEE
+      - DRCB
+      - DLFI
+      - DBTVS
+      - BPS
+      - DBUS
+  validations:
+    required: true
 body:
 - type: markdown
   attributes:
